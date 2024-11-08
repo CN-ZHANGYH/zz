@@ -12,7 +12,7 @@ export default withMermaid(
     description: metaData.description,
     base: '/zz/',
     cleanUrls: true,
-    lastUpdated: true, // 显示最后更新时间
+    lastUpdated: true, // 显示最后更新时间 time
 
     head, // <head>内标签配置
     markdown: markdown, // Markdown配置
